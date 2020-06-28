@@ -36,7 +36,7 @@ app.post("/repositories", (request, response) => {
     id: uuid(),
     title,
     url,
-    techs: techs.split(', '),
+    techs,
     likes: 0,
   }
 
